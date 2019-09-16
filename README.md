@@ -94,23 +94,19 @@ For example, when placed on "four of a kind":
 
 When placed on "small straight", if the dice read
 
-> 1,2,3,4,5,
-
-the player scores 15 (the sum of all the dice).
+- 1,2,3,4,6 scores 30.
 
 ### Large straight
 
 When placed on "large straight", if the dice read
 
-> 2,3,4,5,6,
-
-the player scores 20 (the sum of all the dice).
+- 2,3,4,5,6 scores 40.
 
 ### Full house
 
-If the dice are two of a kind and three of a kind, the player scores the sum of all the dice. 
+If the dice are two of a kind and three of a kind, the player scores the sum of all the dice.
 For example, when placed on "full house":
 
-- 1,1,2,2,2 scores 8 (1+1+2+2+2)
+- 1,1,2,2,2 scores 25
 - 2,2,3,3,4 scores 0
 - 4,4,4,4,4 scores 0
