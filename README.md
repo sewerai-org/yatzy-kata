@@ -6,6 +6,8 @@ You are given a repository for Yatzy. It is implemented in many languages, but y
 
 Your goal is to refactor it, keeping in mind language conventions, readbility, and maintabability. Feel free to change improve the tests, too.
 
+Note: Some languages do not have the correct scores in the unit tests.
+
 ## Kata: Yatzy rules
 
 The game of Yatzy is a simple dice game. Each player rolls five six-sided dice. They can re-roll some or all of the dice up to three times (including the original roll).
@@ -110,8 +112,7 @@ When placed on "large straight", five sequencial numbers. E.g. if the dice read
 
 ### Full house
 
-If the dice are two of a kind and three of a kind, the player scores the sum of all the dice.
-For example, when placed on "full house":
+If the dice are two of a kind and three of a kind. E.g. if the dice read
 
 - 1,1,2,2,2 scores 25
 - 2,2,3,3,4 scores 0
