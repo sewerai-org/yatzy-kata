@@ -1,4 +1,10 @@
-﻿# Yatzy Kata
+# Yatzy Kata
+
+## How to use this Kata
+
+You are given a repository for Yatzy. It is implemented in many languages, but you can choose the language of your choice.
+
+Your goal is to refactor it, keeping in mind language conventions, readbility, and maintabability. Feel free to change improve the tests, too.
 
 ## Kata: Yatzy rules
 
@@ -92,13 +98,13 @@ For example, when placed on "four of a kind":
 
 ### Small straight
 
-When placed on "small straight", if the dice read
+When placed on "small straight", four sequencial numbers. E.g. if the dice read
 
-- 1,2,3,4,6 scores 30.
+- 1,2,3,4,n scores 30.
 
 ### Large straight
 
-When placed on "large straight", if the dice read
+When placed on "large straight", five sequencial numbers. E.g. if the dice read
 
 - 2,3,4,5,6 scores 40.
 
