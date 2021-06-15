@@ -100,15 +100,25 @@ For example, when placed on "four of a kind":
 
 ### Small straight
 
-When placed on "small straight", four sequencial numbers. E.g. if the dice read
+When placed on "small straight", four sequential numbers will score 30, *regardless of the sum of the numbers*
 
-- 1,2,3,4,n scores 30.
+- 1-2-3-4 
+  or
+- 2-3-4-5
+  or
+- 3-4-5-6
+
+all score 30
 
 ### Large straight
 
-When placed on "large straight", five sequencial numbers. E.g. if the dice read
+When placed on "large straight", five sequential numbers will score 40, *regardless of the sum of the numbers*
 
-- 2,3,4,5,6 scores 40.
+- 1-2-3-4-5 
+  or
+- 2,3,4,5,6
+
+each combination scores 40
 
 ### Full house
 
